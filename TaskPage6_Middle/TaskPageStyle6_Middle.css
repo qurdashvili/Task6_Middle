@@ -1,0 +1,338 @@
+@font-face{
+    font-family: "Roboto";
+    src: url(./Font/Roboto.ttf);
+}
+@font-face{
+    font-family: "Poppins";
+    src: url(./Font/Poppins.ttf);
+}
+
+@font-face{
+    font-family: "Poppins-Light";
+    src: url(./Font/Poppins-Light.ttf);
+}
+
+@font-face{
+    font-family: "Poppins-SemiBold";
+    src: url(./Font/Poppins-SemiBold.ttf);
+}
+
+.BDY{
+   background-color:  #5052E2;
+}
+
+.header{
+    width: 100%;
+    height: 80px;
+    position: absolute;
+    left: 0px;
+    top:  0px;
+    display: flex;
+}
+
+.Parent_Of_SmallDivs{
+
+    width:  23.54px;
+    height: 23.54px;
+    margin-top: 28.73px;
+    margin-left: 37.66px;
+    display: flex;
+    gap: 3.25px;
+    flex-wrap: wrap;
+}
+
+.SmallDivs{
+
+    background-color: #FFFFFF;
+    width:  5.68px;
+    height: 5.68px;
+}
+
+.Div_Crowdfund{
+
+    color: rgba(255, 255, 255, 1);
+    height: 27.45px;
+    width: 175px;
+    margin-top: 26.78px;
+    margin-left: 23.38px;
+    font-family: "Poppins";
+    font-size: 27px;
+    font-weight: 900;
+    line-height: 27px;
+    text-align: left;
+}
+
+.DivImage_1{
+
+    height: 39px;
+    width: 39px;
+    position: absolute;
+    left: 1306.36px;
+    top: 23.78px;
+    border-radius: 50%;
+    
+}
+
+.Foto_1{
+
+    width: 39px;
+    height: 39px;
+    border-radius: 50%;
+}
+
+.Kate{
+    
+    height: 22px;
+    width: 70px;
+    position: absolute;
+    left: 1355.64px;
+    top: 32px;
+    font-family: "Poppins-Light";
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 21px;
+    color: rgba(255, 255, 255, 1);
+
+}
+
+#TitleSec{
+
+    height: 82px;
+    width: 800px;
+    margin-top: 100px;
+    margin-left: 320px;
+    font-family: "Poppins-SemiBold";
+    color:  rgba(255, 255, 255, 1);
+    font-size: 72px;
+    font-weight: 600;
+    line-height: 82px;
+    letter-spacing: -4px;
+    text-align: center;
+    
+}
+
+#sectionText_1{
+
+    height: 68px;
+    width: 610px;
+    margin-left: 420px;
+    margin-top: 33px;
+    font-family: "Poppins-Light";
+    color: rgba(255, 255, 255, 1);
+    font-size: 19px;
+    font-weight: 400;
+    line-height: 34px;
+    text-align: center;
+}
+
+#sectionCards{
+    width: 1140px;
+    height: 263px;
+    margin-top: 45px;
+    margin-left: 150px;
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+}
+
+.CardDivs{
+
+    position: relative;
+    background: rgba(255, 255, 255, 1);
+    width: 360px;
+    height: 263px;
+    border-radius: 4px;
+}
+
+.Last_3_Image{
+    position: absolute;
+    height: 60px;
+    width: 68px;
+    left: 20px;
+    top: 29px;
+    border-radius: 100px;
+}
+
+.Personsfullname{
+    height: 24px;
+    width: 180px;
+    position: absolute;
+    top: 38px;
+    left: 100px;
+    font-family: "Poppins-SemiBold";
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 24px;
+    letter-spacing: 2px;
+}
+
+.MailAdress{
+    height: 18px;
+    width: 61px;
+    position: absolute;
+    top: 59px;
+    left: 100px;
+    color: #9B9B9B;
+    font-family: "Roboto";
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 18px;
+}
+
+.TextDivs{
+    height: 84px;
+    width: 300px;
+    position: absolute;
+    left: 30px;
+    top: 100px;
+    font-family: "Roboto";
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 28px;
+}
+
+.Ptext{
+    margin-top: 0px;
+}
+
+#Hashtags{
+    color: #55ACEE;
+}
+
+.DataDivs{
+    height: 24px;
+    width: 90px;
+    position: absolute;
+    left: 30px;
+    top: 204px;
+    font-family: "Roboto";
+    color: #9B9B9B;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+}
+
+#Companies{
+    max-width: 278px;
+    height: 24px;
+    margin-left: 572px;
+    margin-top: 40px;  
+    display: flex;
+    justify-content: space-between;
+    color: #FFFFFF;
+    font-family: "Roboto";
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+  
+}
+
+#icon{
+    height: 9px;
+    width: 5px;
+    position: absolute;
+    top: 640px;
+    left: 864px;
+}
+
+#Footer{
+    width: 100%;
+    height: 60px;
+    position: absolute;
+    bottom: 0px;
+    left: 0px;
+    display: flex;
+}
+
+.footerdiv_1{
+    height: 17px;
+    width: 243px;
+    position: absolute;
+    left: 45px;
+    bottom: 21px;
+    color: #FFFFFF;
+    font-family: "Roboto";
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 16px;
+}
+
+.footerContact{
+    height: 24px;
+    width: 82px;
+    position: absolute;
+    left: 481px;
+    bottom: 18.5px;
+    color: #FFFFFF;
+    font-family: "Poppins-SemiBold";
+    font-size: 14px;
+    font-weight: 600;
+    line-height: 24px;
+    letter-spacing: 2px;
+    text-align: center;
+    
+}
+
+.footerHelp{
+    height: 24px;
+    width: 41px;
+    position: absolute;
+    left: 594px;
+    bottom: 18.5px;
+    color: #FFFFFF;
+    font-family: "Poppins-SemiBold";
+    font-size: 14px;
+    font-weight: 600;
+    line-height: 24px;
+}
+
+.footerTerms{
+    height: 20px;
+    width: 119px;
+    position: absolute;
+    left: 668px;
+    bottom: 19.5px;
+    color: #FFFFFF;
+    font-family: "Poppins-SemiBold";
+    font-size: 14px;
+    font-weight: 600;
+    line-height: 20px;
+}
+
+.footerPrivacy{
+    height: 24px;
+    width: 139px;
+    position: absolute;
+    left: 821px;
+    bottom: 18.5px;
+    color: #FFFFFF;
+    font-family: "Poppins-SemiBold";
+    font-size: 14px;
+    font-weight: 600;
+    line-height: 24px;
+}
+
+#Twitter{
+    height: 14px;
+    width: 17px;
+    position: absolute;
+    left: 1297px;
+    bottom: 24px;
+}
+
+#Facebook{
+    height: 17px;
+    width: 8px;
+    position: absolute;
+    left: 1332px;
+    bottom: 22px;
+}
+
+#Youtube{
+    background: rgba(255, 255, 255, 1);
+    height: 14px;
+    width: 20px;
+    position: absolute;
+    left: 1360px;
+    bottom: 24px;
+}
